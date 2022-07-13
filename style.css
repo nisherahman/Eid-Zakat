@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* banner part starts */
+.banner-container {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7)), url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 191px;
+}
+
+.banner-text {
+    color: white;
+    padding-top: 204px;
+    padding-bottom: 178px;
+    margin-left: 220px;
+}
+
+.banner-text h1 {
+    font-size: 55px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding-right: 493px;
+}
+
+.banner-text p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-right: 663px;
+    margin-top: 31px;
+    margin-bottom: 55px;
+}
+
+.banner-text .link-button {
+    font-size: 18px;
+    background: #EF233C;
+    color: white;
+    padding: 20px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all linear 0.4s;
+}
+
+.banner-text .link-button:hover {
+    background: transparent;
+    border: 1px solid #EF233C;
+}
+
+/* banner part ends */
+
+/* donation part starts */
+.donation-container {
+    margin-bottom: 130px;
+}
+
+.donation-details {
+    margin-top: 98px;
+}
+
+.donation-description,
+.donation-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 170px;
+}
+
+.donation-img {
+    position: relative;
+}
+
+.donation-img::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    left: 0;
+    top: 0;
+}
+
+.donation-text h2 {
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #121212;
+}
+
+.donation-text p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    width: 468px;
+    margin-top: 15px;
+}
+
+.donation-text p:last-of-type {
+    margin-top: 35px;
+    margin-bottom: 37px;
+}
+
+.donation-text .link-button {
+    font-size: 18px;
+    background: #EF233C;
+    color: white;
+    padding: 20px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all linear 0.4s;
+}
+
+.donation-text .link-button:hover {
+    background: transparent;
+    color: #121212;
+    border: 1px solid #EF233C;
+}
+
+.donation-details .donation-text {
+    width: 458px;
+    padding-right: 154px;
+}
+
+.p-one {
+    width: 468px;
+}
+
+/* donation part ends */
+
+/* depend part starts */
+.depend-container {
+    margin-bottom: 95px;
+}
+
+.depend-head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.depend-head h2 {
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #121212;
+    padding: 0 403px;
+    text-align: center;
+}
+
+.depend-head p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    padding: 0 353px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 58px;
+}
+
+.depend-text {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 170px;
+    margin-bottom: 25px;
+}
+
+.card1 {
+    width: 480px;
+    background: #FEF4F5;
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 20px 29px 25px;
+    border-radius: 10px;
+}
+
+.card1 img {
+    width: 68px;
+    margin: 0 30px;
+}
+
+.card1 h4 {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #121212;
+}
+
+.card1 p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    margin-top: 15px;
+}
+
+/* depend part ends */
+
+/* image part starts */
+.image-contianer {
+    margin-bottom: 130px;
+}
+
+.all-images {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    margin-right: 20px;
+}
+
+/* image part ends */
+
+/* reward part starts */
+.reward-container {
+    margin-bottom: 120px;
+}
+
+.reward-head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reward-head h2 {
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #121212;
+    padding: 0 295px;
+    text-align: center;
+}
+
+.reward-head p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    padding: 0 353px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+
+.reward-content {
+    display: flex;
+    justify-content: center;
+}
+
+.reward-text {
+    width: 366px;
+    margin-right: 20px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+}
+
+.reward-details {
+    margin: 35px 0 35px 30px;
+}
+
+.reward-details h4 {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #121212;
+}
+
+.reward-details p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.reward-details a {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #EF233C;
+}
+
+/* reward  part ends */
+
+/* footer part starts */
+
+.footer-container {
+    height: 130px;
+    background: #0B0D17;
+    text-align: center;
+}
+
+.footer-container p:first-of-type {
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+    color: #EF233C;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.footer-container p:last-of-type {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* footer part ends */
